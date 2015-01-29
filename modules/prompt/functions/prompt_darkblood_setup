@@ -1,5 +1,8 @@
 # A fork of a oh-my-zsh theme
 #
+# Authors :
+#    Meh <meh@schizofreni.co>
+#    Adrien Bak <adrien.bak@gmail.com>
 # Screenshots : http://imgur.com/a/bhxlO
 
 
@@ -45,7 +48,7 @@ function prompt_darkblood_setup {
 %{$fg[red]%}└[%{$fg_bold[white]%}%~%{$reset_color%}%{$fg[red]%}]>%{$reset_color%} '
   ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg[red]%}[%{$fg_bold[white]%}"
 	ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}%{$fg[red]%}] "
-	ZSH_THEME_GIT_PROMPT_DIRTY=" %{$fg[red]%}⚡%{$reset_color%}"
+	ZSH_THEME_GIT_PROMPT_DIRTY=" %{$reset_color%}%{$fg[red]%}⚡%{$reset_color%}"
   RPROMPT=''
 }
 
