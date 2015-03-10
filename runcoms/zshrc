@@ -11,5 +11,11 @@ prezto_home=${mypath:h:h}
 
 source "${prezto_home}/init.zsh"
 
+
+
 #aliases
 source ~/.aliases
+
+function setpwd() {
+    set-window-title `pwd`
+}
