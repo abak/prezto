@@ -23,3 +23,12 @@ function setpwd() {
 source ~/.path
 
 
+
+PATH="/home/abak/perl5/bin${PATH:+:${PATH}}"; export PATH;
+PERL5LIB="/home/abak/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="/home/abak/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"/home/abak/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/home/abak/perl5"; export PERL_MM_OPT;
+
+
+. /home/abak/misc/torch/install/bin/torch-activate
