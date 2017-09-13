@@ -21,6 +21,6 @@ function setpwd() {
 }
 
 source ~/.path
-
+source ~/.local_aliases
 
 
