@@ -19,7 +19,7 @@ source ~/.aliases
 function setpwd() {
     set-window-title `pwd`
 }
-
+source ~/.common_paths
 source ~/.path
 source ~/.local_aliases
 
